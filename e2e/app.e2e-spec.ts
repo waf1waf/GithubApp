@@ -1,10 +1,10 @@
-import { GitHubAppPage } from './app.po';
+import { GithubAppPage } from './app.po';
 
 describe('git-hub-app App', () => {
-  let page: GitHubAppPage;
+  let page: GithubAppPage;
 
   beforeEach(() => {
-    page = new GitHubAppPage();
+    page = new GithubAppPage();
   });
 
   it('should display message saying app works', () => {
